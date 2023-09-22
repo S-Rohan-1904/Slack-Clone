@@ -241,3 +241,165 @@ a.hover-animation::before {
 #video1 {
     margin-left: -5vw;
 }
+
+.main-sub {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main-sub h1 {
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: -2px;
+    padding-top: 3vw;
+    margin-bottom: 0px;
+    height: fit-content;
+}
+.main-sub h6 {
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 300;
+    margin-top: 1vw;
+}
+
+img.emoji {
+    display: inline;
+    width: 100px;
+    height: 60px;
+}
+
+#i1{
+    position: relative;
+    left: 16vw;
+    top: 2vw;
+}
+
+#i2 {
+    position: relative;
+    left: 0vw;
+    top: 8vw;
+}
+
+#i3 {
+    position: relative;
+    top: 8vw;
+    left: 15vw;
+}
+
+#i4 {
+    position: relative;
+    top: 2vw;
+}
+
+#i5 {
+    position: relative;
+    top: 8vw;
+    right: 15vw;
+}
+
+#i6 {
+    position: relative;
+    top: 8vw;
+    right: 3vw;
+}
+
+
+#btn {
+    display: flex;
+}
+
+#enterprise {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 450;
+    background-color: rgb(84, 21, 84);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 1.3vw 1.8vw 1.3vw 1.8vw;
+    margin-left: 14vw;
+}
+
+#talk {
+    color: rgb(84, 21, 84);
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 1.3vw 1.8vw 1.3vw 1.8vw;
+    margin-left: 1vw;
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 10vw;
+    padding-top: 3vw;
+}
+.flex-container h1 {
+    color: rgb(84, 21, 84);
+    text-align: center;
+    margin: 0px;
+}
+.flex-container p {
+    font-size: 14px;
+    margin-left: 5.5vw;
+    text-align: left;
+    width: 13vw;
+}
+
+div#container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 6vw;
+    padding: 5vw 0 0 0;
+    background-color: white;
+}
+
+#video3 video{
+    height: 70%;
+    width: 130%;
+    margin-left: -5vw;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    
+}
+
+#container-text{
+    position: relative;
+    margin-top: 3vw;
+    width: 100%;
+}
+
+#container-text p {
+    font-size: 25px;
+    font-weight: 250;
+    margin-right: 0px;
+    width: 95%;
+    font-style: italic;
+}
+
+p#name {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+p#dir {
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p#disclaimer {
+    margin-top: -120px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+}
