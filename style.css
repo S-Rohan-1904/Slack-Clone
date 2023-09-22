@@ -6,6 +6,9 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     overflow-x: hidden;
 }
+html {
+    height: 100%;
+}
 .header {
     height: 34vw;
     background-color: rgb(84, 21, 84);
@@ -403,3 +406,107 @@ p#disclaimer {
     font-size: 14px;
     font-weight: 200;
 }
+
+.card-container {
+    background-color: rgb(244, 237, 228);
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    height: 550px;
+}
+
+div.card {
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 470px;
+    
+}
+
+.card img {
+    padding: 15px;
+    align-self: center;
+    width: 90%;
+    height: 50%;
+    margin: 0%;
+}
+h3#header{
+    text-align: center;
+    background-color: rgb(244, 237, 228);
+    margin: 0%;
+    padding: 40px;
+    font-size: 32px;
+}
+
+.card h6 {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 1vw;
+    margin: 0%;
+}
+
+.card h3 {
+    font-size: 22px;
+    padding: 0 0 0 1vw;
+    overflow: hidden;
+    display: block;
+}
+
+.card a {
+    position: relative;
+    top: 30px;
+    font-size: 10px;
+    padding-left:1vw;
+    text-decoration: none;
+    color: rgb(18, 100, 163);
+}
+
+a#link {
+    position: relative;
+    top: 0px;
+}
+
+.footer {
+    background-color: rgb(74, 21, 75);
+    color: white;
+    height: 370px;
+    font-size: 32px;
+    text-align: center;
+    clip-path: ellipse(75% 100% at 50% 0%);
+}
+.footer h1 {
+    font-weight: 450;
+    margin: 0;
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
+.footer button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 450;
+    background-color: white;
+    color: rgb(84, 21, 84);
+    border: none;
+    border-radius: 4px;
+    padding: 1vw 2vw 1vw 2vw;
+}
+
+#sales2{
+    font-weight: 400;
+    color: white;
+    background-color: rgb(84, 21, 84);
+    border: 1px solid;
+}
+/*
+div.footer-links {
+    background-color: white;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+#logo {
+    margin: 60px 0 0 200px;
+    width: 60px;
+    justify-content: center;
+}*/
